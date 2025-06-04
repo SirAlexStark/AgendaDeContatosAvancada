@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaDeContatosAvancada", "AgendaDeContatosAvancada.csproj", "{4FD765FE-7426-4587-B86C-71224B43921B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Contato.cs = Contato.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{14842D92-6340-47C1-A064-9F7CB75FE1C4}"
+	ProjectSection(SolutionItems) = preProject
+		ContatoArquivoService.cs = ContatoArquivoService.cs
+		ContatoService.cs = ContatoService.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FD765FE-7426-4587-B86C-71224B43921B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD765FE-7426-4587-B86C-71224B43921B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD765FE-7426-4587-B86C-71224B43921B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD765FE-7426-4587-B86C-71224B43921B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {046828F3-A5F4-4262-B220-F53F10AA4949}
+	EndGlobalSection
+EndGlobal
